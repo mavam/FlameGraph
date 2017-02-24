@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # pkgsplit-perf.sh	Split IP samples on package names "/", eg, Java.
 #

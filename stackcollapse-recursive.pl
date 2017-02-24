@@ -1,4 +1,4 @@
-#!/usr/bin/perl -ws
+#!/usr/bin/env perl
 #
 # stackcollapse-recursive  Collapse direct recursive backtraces
 #
@@ -32,6 +32,8 @@
 # information: Portions Copyright [yyyy] [name of copyright owner]
 #
 # CDDL HEADER END
+
+use warnings;
 
 my %stacks;
 

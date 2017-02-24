@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcolllapse-stap.pl	collapse multiline SystemTap stacks
 #				into single lines.
@@ -50,6 +50,7 @@
 # 16-Feb-2012	Brendan Gregg	Created this.
 
 use strict;
+use warnings;
 
 my %collapsed;
 

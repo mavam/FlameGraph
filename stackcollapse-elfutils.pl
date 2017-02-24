@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcollapse-elfutils  Collapse elfutils stack (eu-stack) backtraces
 #
@@ -34,6 +34,7 @@
 # CDDL HEADER END
 
 use strict;
+use warnings;
 use Getopt::Long;
 
 my $with_pid = 0;

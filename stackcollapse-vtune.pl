@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcollapse-vtune.pl
 #
@@ -28,6 +28,7 @@
 # AUTHOR: Rohith Bakkannagari
 
 use strict;
+use warnings;
 
 # data initialization
 my @stack = ();

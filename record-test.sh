@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -v -x
 
 for opt in pid tid inline kernel context ; do

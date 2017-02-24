@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcolllapse.pl	collapse multiline stacks into single lines.
 #
@@ -49,6 +49,7 @@
 # 14-Aug-2011	Brendan Gregg	Created this.
 
 use strict;
+use warnings;
 
 my $headerlines = 3;		# number of input lines to skip
 my $includeoffset = 0;		# include function offset (except leafs)

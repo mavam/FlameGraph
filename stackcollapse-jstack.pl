@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcolllapse-jstack.pl	collapse jstack samples into single lines.
 #
@@ -56,6 +56,7 @@
 # 14-Sep-2014	Brendan Gregg	Created this.
 
 use strict;
+use warnings;
 
 use Getopt::Long;
 

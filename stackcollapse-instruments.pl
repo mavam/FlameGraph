@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcollapse-instruments.pl
 #
@@ -8,6 +8,7 @@
 # USAGE: ./stackcollapse-instruments.pl infile > outfile
 
 use strict;
+use warnings;
 
 my @stack = ();
 

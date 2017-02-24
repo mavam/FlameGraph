@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcolllapse-perf.pl	collapse perf samples into single lines.
 #
@@ -64,6 +64,7 @@
 # 02-Jul-2014	   "	  "	Added process name to stacks.
 
 use strict;
+use warnings;
 use Getopt::Long;
 
 my %collapsed;

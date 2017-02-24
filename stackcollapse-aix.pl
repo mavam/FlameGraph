@@ -1,4 +1,4 @@
-#!/usr/bin/perl -ws
+#!/usr/bin/env perl
 #
 # stackcollapse-aix  Collapse AIX /usr/bin/procstack backtraces
 #
@@ -7,6 +7,7 @@
 #
 
 use strict;
+use warnings;
 
 my $process = "";
 my $current = "";

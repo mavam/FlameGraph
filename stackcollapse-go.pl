@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 #
 # stackcolllapse-go.pl  collapse golang samples into single lines.
 #
@@ -58,6 +58,7 @@
 # 16-Jan-2017   Sijie Yang   Created this.
 
 use strict;
+use warnings;
 
 use Getopt::Long;
 

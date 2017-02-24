@@ -1,4 +1,4 @@
-#!/usr/bin/perl -ws
+#!/usr/bin/env perl
 #
 # stackcollapse-gdb  Collapse GDB backtraces
 #
@@ -34,6 +34,7 @@
 # CDDL HEADER END
 
 use strict;
+use warnings;
 
 my $current = "";
 my $previous_function = "";
